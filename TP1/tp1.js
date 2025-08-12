@@ -40,6 +40,12 @@ if (num5 > num6 && num5 >num7) {
 } */
 
 //Ejercicio 8
+/* let divisible = parseFloat(prompt('Ingrese un número'))
+if (divisible % 2 == 0){
+    document.write(divisible, ' es divisible por 2.')
+}else{
+    document.write(divisible, ' no es divisible por 2.')
+} */
 
 //Ejercicio 9
 
