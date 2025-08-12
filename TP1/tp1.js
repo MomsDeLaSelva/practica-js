@@ -80,5 +80,58 @@ switch (true) {
         document.write(numDiv, ' no es divisible por 2 ni por 3 ni por 5 ni por 7')
 } */
 
-//Ejercicio 11hola
+//Ejercicio 11
+/* let divNum = +prompt('Ingrese un número') //forma conrta con if anidado
 
+if (divNum % 2 == 0 || divNum % 3 == 0 || divNum % 5 == 0 || divNum % 7 == 0) {
+    if (divNum % 2 == 0) {
+        document.write(divNum, ' es divisible por 2. ')
+    }
+    if (divNum % 3 == 0) {
+        document.write(divNum, ' es divisible por 3. ')
+    }
+    if (divNum % 5 == 0) {
+        document.write(divNum, ' es divisible por 5. ')
+    }
+    if (divNum % 7 == 0) {
+        document.write(divNum, ' es divisible por 7. ')
+    }
+} else {
+    document.write(divNum, ' no es divisible ni por 2 ni por 3 ni por 5 ni por 7')
+} */
+
+/* let divNum = Number(prompt("Ingrese un número")) //forma larga larguísima
+
+if (divNum % 2 ==0 && divNum % 3 == 0 && divNum % 5 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 2, por 3, por 5 y por 7")
+} else if (divNum % 3 == 0 &&divNum % 5 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 3, por 5 y por 7")
+} else if (divNum % 2 == 0 && divNum % 5 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 2, por 5 y por 7")
+} else if (divNum % 3 == 0 && divNum % 2 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 2, por 3 y por 7")
+} else if (divNum % 3 == 0 && divNum % 5 == 0 && divNum % 2 == 0){
+    document.write("Es divisible por 2, por 3 y por 5")
+} else if (divNum % 2 == 0 && divNum % 3 == 0){
+    document.write("Es divisible por 2 y por 3")
+} else if (divNum % 2 == 0 && divNum % 5 == 0){
+    document.write("Es divisible por 2 y por 5")
+} else if (divNum % 2 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 2 y por 7")
+} else if (divNum % 3 == 0 && divNum % 5 == 0){
+    document.write("Es divisible por 3 y por 5")
+} else if (divNum % 3 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 3 y por 7")
+} else if (divNum % 5 == 0 && divNum % 7 == 0){
+    document.write("Es divisible por 5 y por 7")
+} else if (divNum % 2 == 0){
+    document.write("Es divisible sólo por 2")
+} else if (divNum % 3 == 0){
+    document.write("Es divisible sólo por 3")
+} else if (divNum % 5 == 0){
+    document.write("Es divisible sólo por 5")
+} else if (divNum % 7 == 0){
+    document.write("Es divisible sólo por 7")
+} else {
+    document.write("No es divisible por 2, por 3, por 5 ni por 7")
+} */
