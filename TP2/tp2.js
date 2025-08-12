@@ -10,6 +10,25 @@ if (edad <=0 || edad >=90) {
 } */
 
 //Ejercicio 2
+/* let nota = Number(prompt('Ingrese una nota de exámen'));
+
+if (nota < 0 || nota > 10) {
+    document.write('Número erróneo')
+} else if (isNaN(nota)) {
+    document.write('Introduce un número válido')
+} else if (nota == 10){
+    alert('Sobresaliente');
+} else if (nota >= 8){
+    alert('Notable');
+} else if (nota ==7){
+    alert('Bien');
+} else if (nota >= 5){
+    alert('Suficiente');
+} else if (nota >= 3){
+    alert('Insuficiente');
+} else {
+    alert('Muy deficiente');
+} */
 
 //Ejercicio 3
 
