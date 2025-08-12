@@ -61,6 +61,24 @@ for (i=0; i<frase.length; i++){
 document.write(vocales); */
 
 //Ejercicio 10
+/* let numDiv = +prompt('Ingrese un número')
+
+switch (true) {
+    case (numDiv % 2 == 0):
+        document.write(numDiv, ' es divisible por 2')
+        break;
+    case (numDiv % 3 == 0):
+        document.write(numDiv, ' es divisible por 3')
+        break;
+    case (numDiv % 5 == 0):
+        document.write(numDiv, ' es divisible por 5')
+        break;
+    case (numDiv % 7 == 0):
+        document.write(numDiv, ' es divisible por 7')
+        break;
+    default:
+        document.write(numDiv, ' no es divisible por 2 ni por 3 ni por 5 ni por 7')
+} */
 
 //Ejercicio 11hola
 
