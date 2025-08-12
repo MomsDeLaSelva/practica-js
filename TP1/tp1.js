@@ -9,9 +9,12 @@
 
 //Ejercicio 4
 /* let nombreUsuario = prompt('Escriba su nombre de usuario')
-document.write('Hola ' +nombreUsuario) */
+document.write('Hola ' + nombreUsuario) */
 
 //Ejercicio 5
+/* let num1 = parseFloat(prompt('Ingrese un número'))
+let num2 = parseFloat(prompt('Ingrese otro número'))
+document.write(num1, ' + ', num2, ' = ', num1+num2) */
 
 //Ejercicio 6
 
