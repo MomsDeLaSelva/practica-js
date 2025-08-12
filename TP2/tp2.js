@@ -41,6 +41,18 @@ do {
     document.write(cadena) */
 
 //Ejercicio 4
+/* let suma = 0;
+
+do {
+    let num = Number(prompt('Ingrese un número'));
+    if (isNaN(num)){
+        alert('Error. Ingrese un número');
+    } else {
+        suma += num;
+    }
+} while (confirm('¿Quiere agregar otro número?'))
+
+document.write(suma) */
 
 //Ejercicio 5
 
