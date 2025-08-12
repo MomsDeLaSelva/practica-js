@@ -5,6 +5,7 @@
 /* document.write('Hello World') */
 
 //Ejercicio 3
+/* document.write(3 + 5) */
 
 //Ejercicio 4
 
