@@ -31,6 +31,14 @@ if (nota < 0 || nota > 10) {
 } */
 
 //Ejercicio 3
+/* let cadena ="";
+
+do {
+    let eslabon = prompt('Ingrese una frase');
+    cadena += (eslabon + '-');
+} while (confirm('¿Quiere agregar otra frase?'))
+
+    document.write(cadena) */
 
 //Ejercicio 4
 
