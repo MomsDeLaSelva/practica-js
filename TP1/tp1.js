@@ -2,6 +2,7 @@
 /* alert('un mensaje') */
 
 //Ejercicio 2
+/* document.write('Hello World') */
 
 //Ejercicio 3
 
