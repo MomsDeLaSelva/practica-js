@@ -123,6 +123,21 @@ if (tope > 1 && tope <= 50) {
 } */
 
 //Ejercicio 10
+/* const filas = parseInt(prompt('Ingrese el número de filas'));
+const columnas = parseInt(prompt('Ingrese el número de columnas'));
+let total = filas * columnas;
+
+document.write( '<table border cellpadding="5">');
+
+for (let cantFilas = 0; cantFilas < filas; cantFilas++) {
+    document.write('<tr>');
+    for (let cantColumnas = 0; cantColumnas < columnas; cantColumnas++) {
+        document.write('<td>' +total+ '</td>');
+        total--;
+    }
+    document.write('<tr>');
+}
+document.write('</table>') */
 
 //Ejercicio 11
 
