@@ -55,6 +55,7 @@ do {
 document.write(suma) */
 
 //Ejercicio 5
+//corregir
 /* let dni = Number(prompt('Ingrese un número de documento (sin puntos)'));
 
 while (dni !== null) {
@@ -71,17 +72,42 @@ document.write('Fin del programa'); */
 
 //Ejercicio 6
 
-for (i = 1; i <= 30; i++) {
-    for (j = 0; j < i; j++) {
-        document.write(i);
+/* for (numRep = 1; numRep <= 30; numRep++) {
+    for (i = 0; i < numRep; i++) {
+        document.write(numRep);
     }
     document.write("<br>");
-}
+} */
 
 //Ejercicio 7
+let tope = Number(prompt('Ingrese un número entre 2 y 50'));
+
+if (tope > 1 && tope <= 50) {
+    for (numRep = tope; numRep > 0; numRep--) {
+        for (i = numRep; i > 0; i--) {
+            document.write(numRep);
+        }
+        document.write("<br>");
+    }
+} else {
+    alert('Valor incorrecto. Por favor ingrese un número entre 2 y 50')
+}
 
 //Ejercicio 8
+/* let tope = Number(prompt('Ingrese un número entre 2 y 50'));
 
+if (tope > 1 && tope <= 50) {
+    for (numRep = 1; numRep <= tope; numRep++) {
+        for (i = 0; i < numRep; i++) {
+            let numStrg =
+            document.write(numRep);
+        }
+    document.write("<br>");
+    } 
+} else {
+    alert('Valor incorrecto. Por favor ingrese un número entre 2 y 50')
+}
+ */
 //Ejercicio 9
 
 //Ejercicio 10
