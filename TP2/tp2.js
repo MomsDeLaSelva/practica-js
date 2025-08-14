@@ -140,7 +140,21 @@ for (let cantFilas = 0; cantFilas < filas; cantFilas++) {
 document.write('</table>') */
 
 //Ejercicio 11
+/* let nombre1 = prompt('Ingrese el nombre de una persona');
+let edad1 = Number(prompt('Ingrese la edad de esa persona'));
+let nombre2 = prompt('Ingrese el nombre de otra persona');
+let edad2 = Number(prompt('Ingrese la edad de esa persona'));
+let nombre3 = prompt('Ingrese el nombre de la tercer persona');
+let edad3 = Number(prompt('Ingrese la edad de esa persona'));
 
+if (Math.max(edad1, edad2, edad3) == edad1) {
+    document.write(nombre1 + ' es el mayor de las tres personas');
+} else if (Math.max(edad1, edad2, edad3) == edad2) {
+    document.write(nombre2 + ' es el mayor de las tres personas');
+} else {
+    document.write(nombre3 + ' es el mayor de las tres personas');
+}
+ */
 //Ejercicio 12
 
 //Ejercicio 13
