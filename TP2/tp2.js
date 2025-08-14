@@ -55,8 +55,28 @@ do {
 document.write(suma) */
 
 //Ejercicio 5
+/* let dni = Number(prompt('Ingrese un número de documento (sin puntos)'));
+
+while (dni !== null) {
+    if (!isNaN(dni) && dni >= 0 && dni <= 99999999) {
+        const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+        let letra = letras.charAt(dni % 23);
+        alert('La letra según el dni ingresado es: ', letra);
+    } else {
+        alert('Número inválido. Debe ingresar un valor entre 0 y 99999999');
+    }
+    dni = number(prompt('Ingrese un nuevo número de documento. (Apretar Cancelar para salir)'));
+}
+document.write('Fin del programa'); */
 
 //Ejercicio 6
+
+for (i = 1; i <= 30; i++) {
+    for (j = 0; j < i; j++) {
+        document.write(i);
+    }
+    document.write("<br>");
+}
 
 //Ejercicio 7
 
