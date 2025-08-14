@@ -80,7 +80,7 @@ document.write('Fin del programa'); */
 } */
 
 //Ejercicio 7
-let tope = Number(prompt('Ingrese un número entre 2 y 50'));
+/* let tope = Number(prompt('Ingrese un número entre 2 y 50'));
 
 if (tope > 1 && tope <= 50) {
     for (numRep = tope; numRep > 0; numRep--) {
@@ -91,24 +91,36 @@ if (tope > 1 && tope <= 50) {
     }
 } else {
     alert('Valor incorrecto. Por favor ingrese un número entre 2 y 50')
-}
+} */
 
 //Ejercicio 8
+//revisar-corregir
 /* let tope = Number(prompt('Ingrese un número entre 2 y 50'));
 
 if (tope > 1 && tope <= 50) {
-    for (numRep = 1; numRep <= tope; numRep++) {
-        for (i = 0; i < numRep; i++) {
-            let numStrg =
-            document.write(numRep);
+    for (numPir = 1; numPir <= tope; numPir++) {
+        for (i = 0; i < numPir; i++) {
+            numPirAs += numPir;
+            document.write(numPirAs);
         }
     document.write("<br>");
     } 
 } else {
     alert('Valor incorrecto. Por favor ingrese un número entre 2 y 50')
-}
- */
+} */
+
 //Ejercicio 9
+/* for (numList = 1; numList <= 500; numList++) {
+    if (numList % 4 == 0) {
+        document.write('<p>' + numList + ' (Múltiplo de 4)', '</p>');
+    } else if (numList % 9 == 0) {
+        document.write('<p>' + numList + ' (Múltiplo de 9)', '</p>')
+    } else if (numList % 5 == 0) {
+        document.write(numList +'<p></p>', '----------------------------', '<p></p>')
+    } else {
+        document.write('<p>' + numList + '</p>');
+    }
+} */
 
 //Ejercicio 10
 
