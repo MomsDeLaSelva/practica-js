@@ -70,7 +70,6 @@ while (dni !== null) {
 document.write('Fin del programa'); */
 
 //Ejercicio 6
-
 /* for (numRep = 1; numRep <= 30; numRep++) {
     for (i = 0; i < numRep; i++) {
         document.write(numRep);
@@ -93,15 +92,18 @@ if (tope > 1 && tope <= 50) {
 } */
 
 //Ejercicio 8
-//revisar-corregir
 /* let tope = Number(prompt('Ingrese un número entre 2 y 50'));
-
+let numPirAs = "";
 if (tope > 1 && tope <= 50) {
-    for (numPir = 1; numPir <= tope; numPir++) {
-        for (i = 0; i < numPir; i++) {
-            numPirAs += numPir;
-            document.write(numPirAs);
+    for (let numPir = 1; numPir <= tope; numPir++) {
+        
+        numPirAs = "";
+        
+        for (i = 1; i <= numPir; i++) {
+            numPirAs += i;
+            
         }
+    document.write(numPirAs);
     document.write("<br>");
     } 
 } else {
@@ -155,6 +157,7 @@ if (Math.max(edad1, edad2, edad3) == edad1) {
 }
  */
 //Ejercicio 12
+
 
 //Ejercicio 13
 
