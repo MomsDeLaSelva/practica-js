@@ -165,6 +165,11 @@ document.write(aleatoreo); */
 document.write(may.toUpperCase()); */
 
 //Ejercicio 14
+/* let frase = prompt('Ingrese una frase');
+
+for (i = 0; i < frase.length; i++) {
+    document.write(frase.charAt(i),'-');
+} */
 
 //Ejercicio 15
 
