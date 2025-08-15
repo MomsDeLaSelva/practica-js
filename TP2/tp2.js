@@ -55,14 +55,13 @@ do {
 document.write(suma) */
 
 //Ejercicio 5
-//corregir
 /* let dni = Number(prompt('Ingrese un número de documento (sin puntos)'));
 
 while (dni !== null) {
     if (!isNaN(dni) && dni >= 0 && dni <= 99999999) {
         const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
         let letra = letras.charAt(dni % 23);
-        alert('La letra según el dni ingresado es: ', letra);
+        alert(`La letra según el dni ingresado es:  ${letra}`);
     } else {
         alert('Número inválido. Debe ingresar un valor entre 0 y 99999999');
     }
