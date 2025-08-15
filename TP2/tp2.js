@@ -172,6 +172,14 @@ for (i = 0; i < frase.length; i++) {
 } */
 
 //Ejercicio 15
+/* let texto = prompt('Ingrese una frase').toLowerCase();
+let contVoc = 0;
+for (i = 0; i <= texto.length; i++) {
+    if (texto.charAt(i) === 'a' || texto.charAt(i) === 'e' || texto.charAt(i) === 'i' || texto.charAt(i) === 'o' || texto.charAt(i) === 'u') {
+        contVoc++;
+    }
+}
+document.write(contVoc); */
 
 //Ejercicio 16
 
