@@ -157,7 +157,8 @@ if (Math.max(edad1, edad2, edad3) == edad1) {
 }
  */
 //Ejercicio 12
-
+/* let aleatoreo = Math.ceil(Math.random(1,99)*100);
+document.write(aleatoreo); */
 
 //Ejercicio 13
 
