@@ -161,6 +161,8 @@ if (Math.max(edad1, edad2, edad3) == edad1) {
 document.write(aleatoreo); */
 
 //Ejercicio 13
+/* let may = prompt('Ingrese una frase');
+document.write(may.toUpperCase()); */
 
 //Ejercicio 14
 
