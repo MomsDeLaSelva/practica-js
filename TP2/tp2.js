@@ -192,3 +192,9 @@ for (i = inic; i >=0; i--) {
 } */
 
 //Ejercicio 17
+/* let frase = prompt('Ingrese una frase').toLowerCase();
+let tope = frase.length;
+let vocales = 'aeiou';
+let letra = frase.charAt(i);
+
+ */
