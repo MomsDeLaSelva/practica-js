@@ -193,8 +193,12 @@ for (i = inic; i >=0; i--) {
 
 //Ejercicio 17
 /* let frase = prompt('Ingrese una frase').toLowerCase();
-let tope = frase.length;
-let vocales = 'aeiou';
-let letra = frase.charAt(i);
 
- */
+for (let i=0; i < frase.length; i++) {
+    let letra = frase.charAt(i);
+    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+        document.write(`<p>La vocal ${letra} está en la posición ${i}</p>`);
+        i = frase.length;
+    }
+} */
+
